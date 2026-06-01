@@ -273,7 +273,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen>
               return Container(
                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: BoxDecoration(
-                  color: Colors.deepPurple.withOpacity(0.2),
+                  color: Colors.deepPurple.withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(color: Colors.deepPurple),
                 ),
@@ -314,7 +314,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen>
               return Container(
                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: BoxDecoration(
-                  color: Colors.amber.withOpacity(0.2),
+                  color: Colors.amber.withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(color: Colors.amber),
                 ),
