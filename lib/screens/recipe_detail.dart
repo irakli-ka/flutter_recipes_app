@@ -441,7 +441,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen>
                       child: Text(
                         instruction,
                         style: Theme.of(context).textTheme.bodyMedium,
-                        softWrap: true,  // ✅ Added this
+                        softWrap: true,
                       ),
                     ),
                   ],
